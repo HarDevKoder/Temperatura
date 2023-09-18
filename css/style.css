@@ -80,3 +80,21 @@ html {
   border-radius: 5px;
 }
 
+/* Tamaño Mobile */
+@media (max-width: 479px) {
+  body{
+    background-color: yellow;
+  }
+
+  .container {
+    /* border: 1px solid black; */
+    width: 90%;
+    /* margin: 50px auto; */
+    /* display: grid; */
+    /* place-items: center; */
+    /* background-color:rgb(218, 250, 243); */
+    /* border-radius: 5px; */
+    /* padding: 10px; */
+  }
+
+}
