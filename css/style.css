@@ -16,7 +16,7 @@ html {
   margin: 50px auto;
   display: grid;
   place-items: center;
-  background-color:rgb(218, 250, 243);
+  background-color: rgb(218, 250, 243);
   border-radius: 5px;
   padding: 10px;
 }
@@ -42,7 +42,7 @@ html {
   margin-bottom: 8px;
 }
 
- .valorTemp {
+.valorTemp {
   border: 1px solid indigo;
   outline: none;
   width: 7em;
@@ -59,18 +59,18 @@ html {
   -webkit-appearance: none;
 }
 
-.btnConvertir{
+.btnConvertir {
   border: 1px solid indigo;
   font-size: 1.7em;
   font-weight: bold;
-  color:indigo;
+  color: indigo;
   padding: 6px;
   border-radius: 15px;
   cursor: pointer;
   background-color: transparent;
-} 
+}
 
-.resultados{
+.resultados {
   width: 82%;
   padding: 10px;
   text-align: center;
@@ -82,19 +82,7 @@ html {
 
 /* Tamaño Mobile */
 @media (max-width: 479px) {
-  body{
-    background-color: yellow;
-  }
-
   .container {
-    /* border: 1px solid black; */
     width: 90%;
-    /* margin: 50px auto; */
-    /* display: grid; */
-    /* place-items: center; */
-    /* background-color:rgb(218, 250, 243); */
-    /* border-radius: 5px; */
-    /* padding: 10px; */
   }
-
 }
